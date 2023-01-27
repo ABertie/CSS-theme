@@ -1,8 +1,11 @@
 :root {
---brand-color: #A6849D;
---dark-color: #2F2235;
---mid-color: #AAAAAA;
---light-color: #EEEEEE;
+  --color-brand: #A6849D;
+  --color-dark: #2F2235;
+  --color-mid: #AAAAAA;
+  --color-light: #EEEEEE;
+  
+  --font-base: 'Verdana', sans-serif;
+  --font-serifs: 'Palatino', serif;
   }
   
 * {
@@ -11,3 +14,9 @@
   box-sizing: border-box;
 }
 
+body {
+  --color-bg: var(--color-light;
+  --color-text: var(--color-mid);
+  --color-hdg: var(--color-dark);
+  --color-button: var(--color-brand); 
+}
