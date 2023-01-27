@@ -1,0 +1,13 @@
+:root {
+--brand-color: #A6849D;
+--dark-color: #2F2235;
+--mid-color: #AAAAAA;
+--light-color: #EEEEEE;
+  }
+  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
